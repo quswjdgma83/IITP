@@ -1,0 +1,5 @@
+<!doctype html>
+<html lang="ko">
+<head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>RFP Atelier SaaS 3 — 양식 반영</title><style>body{margin:0;display:grid;min-height:100vh;place-items:center;background:#f6f7fb;color:#192035;font-family:Arial,"Noto Sans KR",sans-serif}.card{padding:28px 32px;border:1px solid #e4e7ef;border-radius:14px;background:#fff;box-shadow:0 12px 32px #19203512;text-align:center}.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:#405cf5;animation:pulse 1s infinite alternate}@keyframes pulse{to{opacity:.2;transform:scale(.6)}}</style></head>
+<body><div class="card"><span class="dot"></span><p>양식 반영 SaaS 3를 불러오는 중입니다.</p></div><script>const old=JSON.parse(localStorage.getItem('rfpAtelierConfig')||'{}');localStorage.setItem('rfpAtelierConfig',JSON.stringify({provider:'openai_api',key:old.key||'',model:old.model||'gpt-5'}));location.replace('./rfp-agent-saas.html?version=3');</script></body>
+</html>
